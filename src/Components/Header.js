@@ -4,7 +4,7 @@ import { useNavigate} from 'react-router-dom'
 import { CryptoState } from '../CryptoContext'
 
 
-const useStyles = makeStyles(()=>({
+const useStyles = makeStyles((theme)=>({
     title:{
         flex:1,
         color:"gold",
